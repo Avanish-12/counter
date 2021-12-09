@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>My web page</title>
+        <script>
+            function addition(){
+                p = document.getElementById("num");
+                p.innerHTML++
+        
+            }
+            function reset(){
+                p = document.getElementById("num");
+                p.innerHTML=0
+                
+
+            }
+            function decrement(){
+                p = document.getElementById("num");
+                p.innerHTML--
+                
+
+            }
+        </script>
+    </head>
+    <body>
+    <h1 id="num">0</h1>
+    <button onclick=decrement()>decrement</button>
+    <button onclick=reset()>reset</button>
+    <button onclick="addition()">increment</button>
+        
+    </body>
+</html>
